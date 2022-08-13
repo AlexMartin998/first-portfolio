@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
 import { BiBook, BiMessageSquareDetail } from 'react-icons/bi';
-import { RiServiceLine } from 'react-icons/ri';
+import { TiShoppingBag } from 'react-icons/ti';
 
 import './nav.css';
 
@@ -34,11 +34,11 @@ export const Nav = () => {
         <BiBook />
       </a>
       <a
-        href="#services"
-        onClick={() => setActiveNav('#services')}
-        className={setActiveClass('#services')}
+        href="#portfolio"
+        onClick={() => setActiveNav('#portfolio')}
+        className={setActiveClass('#portfolio')}
       >
-        <RiServiceLine />
+        <TiShoppingBag />
       </a>
       <a
         href="#contact"
