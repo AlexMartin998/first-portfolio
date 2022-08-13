@@ -23,7 +23,7 @@ export const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>3+ Years of Development</small>
+              <small>1+ Years of Development</small>
             </article>
             <article className="about__card">
               <FiUser className="about__icon" />
@@ -33,7 +33,7 @@ export const About = () => {
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>21+ Completed</small>
             </article>
           </div>
 
