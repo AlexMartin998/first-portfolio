@@ -28,7 +28,7 @@ export const About = () => {
             <article className="about__card">
               <FiUser className="about__icon" />
               <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <small>3+ clients</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />

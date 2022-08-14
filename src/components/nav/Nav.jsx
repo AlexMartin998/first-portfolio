@@ -42,21 +42,21 @@ export const Nav = () => {
         <AiOutlineUser />
       </NavLink>
       <NavLink
-        to="experience"
+        to="/experience"
         onClick={() => scrollTo('experience')}
         className={setActiveClass('#experience')}
       >
         <BiBook />
       </NavLink>
       <NavLink
-        to="portfolio"
+        to="/portfolio"
         onClick={() => scrollTo('portfolio')}
         className={setActiveClass('#portfolio')}
       >
         <TiShoppingBag />
       </NavLink>
       <NavLink
-        to="contact"
+        to="/contact"
         onClick={() => scrollTo('contact')}
         className={setActiveClass('#contact')}
       >

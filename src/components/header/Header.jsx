@@ -1,9 +1,16 @@
+import { Link } from 'react-router-dom';
+
 import { CTA } from './CTA';
 import ME from './../../assets/me.png';
 import './header.css';
 import { HeaderSocials } from './HeaderSocials';
 
 export const Header = () => {
+  const scrollTo = () => {
+    const section = document.getElementById('contact');
+    section && section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
   return (
     <header id="header">
       <div className="container header__container">
@@ -18,9 +25,9 @@ export const Header = () => {
           <img src={ME} alt="me" />
         </div>
 
-        <a href="#contact" className="scroll__down">
+        <Link to="/contact" className="scroll__down" onClick={scrollTo}>
           Scroll Down
-        </a>
+        </Link>
       </div>
     </header>
   );
