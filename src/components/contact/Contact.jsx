@@ -54,7 +54,7 @@ export const Contact = () => {
             <h5>+593 999 9999 9999</h5>
             {/* <a href="https://api.whatsapp.com/send?phone=+59395036951">Send a message</a> */}
             <a
-              href="https://wa.me/59395036951"
+              href="https://wa.me/593995036951"
               target="_blank"
               rel="noreferrer"
             >
