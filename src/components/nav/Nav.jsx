@@ -1,4 +1,6 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { NavLink, useLocation } from 'react-router-dom';
+
 import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
 import { BiBook, BiMessageSquareDetail } from 'react-icons/bi';
 import { TiShoppingBag } from 'react-icons/ti';
@@ -6,47 +8,60 @@ import { TiShoppingBag } from 'react-icons/ti';
 import './nav.css';
 
 export const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#');
+  const location = useLocation();
+  const [activeNav, setActiveNav] = useState('#header');
+
+  useEffect(() => {
+    const section = document.getElementById(location.pathname.substring(1));
+    section && section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, []);
+
+  const scrollTo = sectionId => {
+    const section = document.getElementById(sectionId);
+    section && section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    setActiveNav(`#${sectionId}`);
+  };
 
   const setActiveClass = hash => (activeNav === hash && 'active') || '';
 
   return (
     <nav>
-      <a
-        href="#"
-        onClick={() => setActiveNav('#')}
-        className={setActiveClass('#')}
+      <NavLink
+        to={'/'}
+        onClick={() => scrollTo('header')}
+        className={setActiveClass('header')}
       >
         <AiOutlineHome />
-      </a>
-      <a
-        href="#about"
-        onClick={() => setActiveNav('#about')}
+      </NavLink>
+      <NavLink
+        to={'/about'}
+        onClick={() => scrollTo('about')}
         className={setActiveClass('#about')}
       >
         <AiOutlineUser />
-      </a>
-      <a
-        href="#experience"
-        onClick={() => setActiveNav('#experience')}
+      </NavLink>
+      <NavLink
+        to="experience"
+        onClick={() => scrollTo('experience')}
         className={setActiveClass('#experience')}
       >
         <BiBook />
-      </a>
-      <a
-        href="#portfolio"
-        onClick={() => setActiveNav('#portfolio')}
+      </NavLink>
+      <NavLink
+        to="portfolio"
+        onClick={() => scrollTo('portfolio')}
         className={setActiveClass('#portfolio')}
       >
         <TiShoppingBag />
-      </a>
-      <a
-        href="#contact"
-        onClick={() => setActiveNav('#contact')}
+      </NavLink>
+      <NavLink
+        to="contact"
+        onClick={() => scrollTo('contact')}
         className={setActiveClass('#contact')}
       >
         <BiMessageSquareDetail />
-      </a>
+      </NavLink>
     </nav>
   );
 };
