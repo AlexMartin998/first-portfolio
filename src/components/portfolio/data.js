@@ -18,7 +18,7 @@ export const data = [
     image: APV,
     title: 'Veterinary PM',
     github: 'https://github.com/adrianAlx/apv-mern-frontend',
-    demo: 'https://uptask-mern-io-adrianlx.netlify.app/',
+    demo: 'https://apv-mern-adrianlx.netlify.app/',
   },
   {
     id: 3,

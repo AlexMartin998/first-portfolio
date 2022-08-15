@@ -38,10 +38,16 @@ export const About = () => {
           </div>
 
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
-            laudantium tempora aliquam nam laborum sed voluptas sequi assumenda
-            aperiam possimus eum ipsam ad dolorum incidunt, quae earum qui porro
-            voluptate!
+            Solid backend knowledge with technologies such as: Node.js,
+            Express.js, TypeScript, MongoDB, Mongoose ODM, SQL, PostgreSQL,
+            Sequelize ORM, Passport, Google OAuth, Passport OAuth and testing
+            with Jest and Supertest or Mocha and Chai.<br></br> Fundamentals in
+            Hexagonal Architecture and DDD with Node.js, Express.js and
+            TypeScript. Strong understanding of the front-end, mainly with
+            React, Redux, Context API, ES7+, HTML5, CSS3, Sass, TypeScript,
+            Webpack, Vite.<br></br>
+            General knowledge in Linux, my main distro is Arch Linux with DWM as
+            a tiling window manager.
           </p>
 
           <a href="#contact" className="btn btn-primary">
