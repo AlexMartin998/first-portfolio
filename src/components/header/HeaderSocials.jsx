@@ -20,6 +20,13 @@ export const HeaderSocials = () => {
         <FaGithub />
       </a>
       <a
+        href="https://github.com/adrianAlx?tab=repositories"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <FaGithub />
+      </a>
+      <a
         href="https://www.udemy.com/user/adrian-alexander-changalombo-travez-2/"
         target="_blank"
         rel="noreferrer"
