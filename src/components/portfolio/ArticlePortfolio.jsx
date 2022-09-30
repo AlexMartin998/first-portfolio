@@ -1,4 +1,10 @@
-export const ArticlePortfolio = ({ image, title, codeLink, demoLink }) => {
+export const ArticlePortfolio = ({
+  image,
+  title,
+  codeLink,
+  demoLink,
+  tech,
+}) => {
   return (
     <article className="portfolio__item ">
       <div className="portfolio__item-image">
@@ -6,6 +12,7 @@ export const ArticlePortfolio = ({ image, title, codeLink, demoLink }) => {
       </div>
 
       <h3>{title}</h3>
+      <span>{tech}</span>
       <div className="portfolio__item-cta">
         <a href={codeLink} target="_blank" className="btn " rel="noreferrer">
           Github
