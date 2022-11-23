@@ -4,6 +4,7 @@ import Calendar from './../../assets/modal.png';
 import ADMIN_PANEL from './../../assets/home-admin.png';
 import OMNIFOOD from './../../assets/omnifood.png';
 import NODE_API from './../../assets/node-api.jpg';
+import SPRING_BOOT_API from './../../assets/spring-boot-api-jwt.png';
 import IBA_PORTFOLIO from './../../assets/iba-portfolio.png';
 import BOOKING from './../../assets/home-booking.png';
 
@@ -76,5 +77,13 @@ export const data = [
     tech: 'Node.js | Express.js | TypeScript',
     github: 'https://github.com/adrianAlx/rest-api-typescript-nodejs',
     demo: 'https://github.com/adrianAlx/rest-api-typescript-nodejs',
+  },
+  {
+    id: genID(),
+    image: SPRING_BOOT_API,
+    title: 'REST API',
+    tech: 'Spring Boot | JWT | MySQL',
+    github: 'https://github.com/AlexMartin998/basic-blog-api-spring-boot',
+    demo: 'https://github.com/AlexMartin998/basic-blog-api-spring-boot',
   },
 ];
