@@ -2,6 +2,7 @@ import UPTASK from './../../assets/admin-ut.png';
 import APV from './../../assets/admin.png';
 import Calendar from './../../assets/modal.png';
 import ADMIN_PANEL from './../../assets/home-admin.png';
+import ECOMVISION from './../../assets/dashboard-mui-js.png';
 import OMNIFOOD from './../../assets/omnifood.png';
 import NODE_API from './../../assets/node-api.jpg';
 import SPRING_BOOT_API from './../../assets/spring-boot-api-jwt.png';
@@ -30,6 +31,15 @@ export const data = [
     github: 'https://github.com/AlexMartin998/calendar-front-react',
     demo: 'https://calendar-mern-alxs.netlify.app/auth/login',
   },
+
+  {
+    id: genID(),
+    image: ECOMVISION,
+    title: 'ECOMVISION - Dashboard',
+    tech: 'React.js | Node.js | Docker - MERN Stack',
+    github: 'https://github.com/AlexMartin998/admin-dashboard-mui',
+    demo: 'https://ecomvision-reacmuijs-alx.netlify.app/',
+  },
   {
     id: genID(),
     image: BOOKING,
@@ -46,6 +56,7 @@ export const data = [
     github: 'https://github.com/adrianAlx/apv-mern-frontend',
     demo: 'https://apv-mern-adrianlx.netlify.app/',
   },
+
   {
     id: genID(),
     image: ADMIN_PANEL,
@@ -54,6 +65,7 @@ export const data = [
     github: 'https://github.com/adrianAlx/admin-panel-react',
     demo: 'https://react-admin-panel-bld.netlify.app/',
   },
+
   {
     id: genID(),
     image: OMNIFOOD,
