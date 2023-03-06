@@ -8,6 +8,7 @@ import NODE_API from './../../assets/node-api.jpg';
 import SPRING_BOOT_API from './../../assets/spring-boot-api-jwt.png';
 import IBA_PORTFOLIO from './../../assets/iba-portfolio.png';
 import BOOKING from './../../assets/home-booking.png';
+import HOOBANK from './../../assets/hoobank.png';
 
 const genID = () =>
   (
@@ -55,6 +56,15 @@ export const data = [
     tech: 'React.js | Node.js - MERN Stack',
     github: 'https://github.com/adrianAlx/apv-mern-frontend',
     demo: 'https://apv-mern-adrianlx.netlify.app/',
+  },
+
+  {
+    id: genID(),
+    image: HOOBANK,
+    title: 'Hoobank',
+    tech: 'React.js | TypeScript | TailwindCSS',
+    github: 'https://github.com/AlexMartin998/hoobank-react',
+    demo: 'https://hoobank-reactts-alx.netlify.app/',
   },
 
   {
