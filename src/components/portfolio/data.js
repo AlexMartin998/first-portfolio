@@ -9,6 +9,7 @@ import SPRING_BOOT_API from './../../assets/spring-boot-api-jwt.png';
 import IBA_PORTFOLIO from './../../assets/iba-portfolio.png';
 import BOOKING from './../../assets/home-booking.png';
 import HOOBANK from './../../assets/hoobank.png';
+import TESLOSHOP from './../../assets/order-pay.png';
 
 const genID = () =>
   (
@@ -16,6 +17,14 @@ const genID = () =>
   ).replace(/\./g, '');
 
 export const data = [
+  {
+    id: genID(),
+    image: TESLOSHOP,
+    title: 'TesloShop E-commerce',
+    tech: 'Next.js | TypeScript | PayPal | Docker',
+    github: 'https://github.com/AlexMartin998/next-teslo-shop',
+    demo: 'https://next-teslo-shop-six.vercel.app/',
+  },
   {
     id: genID(),
     image: UPTASK,
