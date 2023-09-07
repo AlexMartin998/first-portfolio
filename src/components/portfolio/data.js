@@ -112,9 +112,9 @@ export const data = [
   {
     id: genID(),
     image: SPRING_BOOT_API,
-    title: 'REST API',
-    tech: 'Spring Boot | JWT | MySQL',
-    github: 'https://github.com/AlexMartin998/basic-blog-api-spring-boot',
-    demo: 'https://github.com/AlexMartin998/basic-blog-api-spring-boot',
+    title: 'Inventory Management System',
+    tech: 'Spring Boot | JWT | PostgreSQL',
+    github: 'https://github.com/AlexMartin998/inventory-management-springboot3',
+    demo: 'https://github.com/AlexMartin998/inventory-management-springboot3',
   },
 ];
