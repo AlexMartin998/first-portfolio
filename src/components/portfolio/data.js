@@ -34,16 +34,6 @@ export const data = [
     github: 'https://github.com/adrianAlx/uptask-mern-front',
     demo: 'https://uptask-mern-io-adrianlx.netlify.app/',
   },
-
-  {
-    id: genID(),
-    image: ECOMVISION,
-    title: 'ECOMVISION - Dashboard',
-    tech: 'React.js | Node.js | Docker - MERN Stack',
-    github: 'https://github.com/AlexMartin998/admin-dashboard-mui',
-    demo: 'https://ecomvision-reacmuijs-alx.netlify.app/',
-  },
-
   {
     id: genID(),
     image: STOREBOOK,
@@ -52,7 +42,14 @@ export const data = [
     github: 'https://github.com/AlexMartin998/book-store-angular',
     demo: 'https://alx-storebook-angular-spring.netlify.app/',
   },
-
+  {
+    id: genID(),
+    image: ECOMVISION,
+    title: 'ECOMVISION - Dashboard',
+    tech: 'React.js | Node.js | Docker - MERN Stack',
+    github: 'https://github.com/AlexMartin998/admin-dashboard-mui',
+    demo: 'https://ecomvision-reacmuijs-alx.netlify.app/',
+  },
   {
     id: genID(),
     image: Calendar,
