@@ -13,6 +13,7 @@ import TESLOSHOP from './../../assets/order-pay.png';
 import STOREBOOK from './../../assets/storebook.png';
 import AIRBNB from './../../assets/home-airbnb.png';
 import QUILLPDF from './../../assets/chatpdf-page.png';
+import CLEAN_ARCH from './../../assets/CleanArchitecture.jpg';
 
 const genID = () =>
   (
@@ -128,6 +129,14 @@ export const data = [
   //   github: 'https://github.com/AlexMartin998/iba-portfolio',
   //   demo: 'https://portfolio-carrera-adrian.netlify.app/',
   // },
+  {
+    id: genID(),
+    image: CLEAN_ARCH,
+    title: 'Share Ideas - Hexagonal Architecture',
+    tech: 'TypeScript | Node.js | PrismaORM | JWT | PostgreSQL',
+    github: 'https://github.com/AlexMartin998/share-ideas-clean-nodets',
+    demo: 'https://github.com/AlexMartin998/share-ideas-clean-nodets',
+  },
   {
     id: genID(),
     image: SPRING_BOOT_API,
