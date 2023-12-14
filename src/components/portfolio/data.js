@@ -14,6 +14,7 @@ import STOREBOOK from './../../assets/storebook.png';
 import AIRBNB from './../../assets/home-airbnb.png';
 import QUILLPDF from './../../assets/chatpdf-page.png';
 import CLEAN_ARCH from './../../assets/CleanArchitecture.jpg';
+import NOTION_CLONE_CYPRESS from './../../assets/02_file_collabs.png';
 
 const genID = () =>
   (
@@ -36,6 +37,14 @@ export const data = [
     tech: 'Next.js | TypeScript | tRPC | OpenAI',
     github: 'https://github.com/AlexMartin998/quillpdf-saas-nextjs',
     demo: 'https://quillpdf-saas-nextjs.vercel.app',
+  },
+  {
+    id: genID(),
+    image: NOTION_CLONE_CYPRESS,
+    title: 'Cypress | Notion Clone',
+    tech: 'Next.js | TypeScript | Socket.IO | Stripe',
+    github: 'https://github.com/AlexMartin998/nextjs-notion-clone',
+    demo: 'https://cypress-clone-notion-production.up.railway.app',
   },
   {
     id: genID(),
